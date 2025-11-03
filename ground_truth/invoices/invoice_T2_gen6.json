@@ -1,0 +1,33 @@
+{
+    "invoice_number": "INV668264",
+    "patient_id": null,
+    "invoice_date": "2005-11-10",
+    "due_date": "2005-12-10",
+    "patient_name": "Christopher Olson",
+    "patient_age": null,
+    "patient_address": null,
+    "patient_phone": "248-294-2049",
+    "patient_email": "christopher.olson@gmail.com",
+    "admission_date": null,
+    "discharge_date": null,
+    "subtotal_amount": 145.0,
+    "discount": null,
+    "total_amount": 151.53,
+    "line_items": [
+        {
+            "description": "Vaccination Booster",
+            "amount": 55.0,
+            "code": "VB08"
+        },
+        {
+            "description": "Urine Test",
+            "amount": 40.0,
+            "code": "UT01"
+        },
+        {
+            "description": "Vaccination",
+            "amount": 50.0,
+            "code": "VAX9"
+        }
+    ]
+}

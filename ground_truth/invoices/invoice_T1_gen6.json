@@ -1,0 +1,33 @@
+{
+    "invoice_number": "INV473732",
+    "patient_id": "MRN78120",
+    "invoice_date": "2012-04-16",
+    "due_date": "2012-05-16",
+    "patient_name": "Leslie Marshall",
+    "patient_age": 31,
+    "patient_address": "8979 Stephanie Creek\nWalkertown, AS 80021",
+    "patient_phone": null,
+    "patient_email": null,
+    "admission_date": "2012-04-03",
+    "discharge_date": "2012-04-15",
+    "subtotal_amount": 345.0,
+    "discount": 6.9,
+    "total_amount": 353.62,
+    "line_items": [
+        {
+            "description": "Eye Exam",
+            "amount": 75.0,
+            "code": "EE09"
+        },
+        {
+            "description": "Consultation",
+            "amount": 150.0,
+            "code": "C001"
+        },
+        {
+            "description": "Physical Therapy",
+            "amount": 120.0,
+            "code": "PT07"
+        }
+    ]
+}

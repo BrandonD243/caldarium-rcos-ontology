@@ -1,0 +1,38 @@
+{
+    "invoice_number": "INV492305",
+    "patient_id": null,
+    "invoice_date": "1998-04-28",
+    "due_date": "1998-05-28",
+    "patient_name": "Jennifer Patterson",
+    "patient_age": null,
+    "patient_address": null,
+    "patient_phone": "940.951.0538",
+    "patient_email": "jennifer.patterson@gmail.com",
+    "admission_date": null,
+    "discharge_date": null,
+    "subtotal_amount": 2325.0,
+    "discount": null,
+    "total_amount": 2429.62,
+    "line_items": [
+        {
+            "description": "Surgery Consultation",
+            "amount": 250.0,
+            "code": "SC03"
+        },
+        {
+            "description": "CT Scan",
+            "amount": 1000.0,
+            "code": "CT15"
+        },
+        {
+            "description": "CT Scan",
+            "amount": 1000.0,
+            "code": "CT15"
+        },
+        {
+            "description": "Eye Exam",
+            "amount": 75.0,
+            "code": "EE09"
+        }
+    ]
+}

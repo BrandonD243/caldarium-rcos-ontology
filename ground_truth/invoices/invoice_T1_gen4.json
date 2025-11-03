@@ -1,0 +1,33 @@
+{
+    "invoice_number": "INV146372",
+    "patient_id": "MRN92331",
+    "invoice_date": "1998-04-13",
+    "due_date": "1998-05-13",
+    "patient_name": "Brian Johnson",
+    "patient_age": 88,
+    "patient_address": "3856 Matthew Overpass Suite 435\nEast Paul, DE 39403",
+    "patient_phone": null,
+    "patient_email": null,
+    "admission_date": "1998-03-31",
+    "discharge_date": "1998-04-12",
+    "subtotal_amount": 250.0,
+    "discount": 92.5,
+    "total_amount": 168.75,
+    "line_items": [
+        {
+            "description": "Allergy Test",
+            "amount": 90.0,
+            "code": "AL07"
+        },
+        {
+            "description": "Cholesterol Test",
+            "amount": 60.0,
+            "code": "CH05"
+        },
+        {
+            "description": "ECG",
+            "amount": 100.0,
+            "code": "ECG2"
+        }
+    ]
+}
