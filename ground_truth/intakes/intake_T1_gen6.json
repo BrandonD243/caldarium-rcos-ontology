@@ -1,0 +1,55 @@
+{
+    "patient_name": "James Gibson",
+    "patient_dob": "1993-01-01",
+    "patient_address_name": "06395 Barton Lights",
+    "patient_address": "06395 Barton Lights, Port Jessicafort, South Dakota 77405",
+    "patient_work_address": null,
+    "patient_other_address": null,
+    "patient_city": "Port Jessicafort",
+    "patient_state": "South Dakota",
+    "patient_zip_code": "77405",
+    "patient_phone": "606-901-4836",
+    "house_phone": "857.370.6331",
+    "work_phone": "612-916-0955",
+    "patient_signature": "James Gibson",
+    "patient_email": "james.gibson@gmail.com",
+    "date": "2025-11-03",
+    "provider_name": "Dr. Sarah Andersen",
+    "provider_city": "West Danielside",
+    "provider_state": "South Dakota",
+    "provider_zip_code": "76595",
+    "referral_name": "Dr. Jeremy Wright",
+    "referral_city": "Dianebury",
+    "referral_state": "South Dakota",
+    "referral_zip_code": "77554",
+    "guardian_name": "N/A",
+    "guardian_signature": "N/A",
+    "guardian_relation": "N/A",
+    "pharmacy_name": "Wellness Rx",
+    "pharmacy_city": "Kathrynstad",
+    "pharmacy_state": "South Dakota",
+    "pharmacy_phone": "(847)229-2407",
+    "medication_items": [
+        {
+            "medication": "Amoxicillin",
+            "dose": "500 mg",
+            "frequency": null
+        },
+        {
+            "medication": "Losartan",
+            "dose": "50 mg",
+            "frequency": null
+        },
+        {
+            "medication": "Amlodipine",
+            "dose": "5 mg",
+            "frequency": null
+        }
+    ],
+    "allergy_list": [],
+    "family_members": [],
+    "emergency_contacts": [],
+    "surgery_history": [],
+    "diagnostics_list": [],
+    "therapies_list": []
+}

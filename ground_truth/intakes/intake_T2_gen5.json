@@ -1,0 +1,76 @@
+{
+    "patient_name": "David Buchanan",
+    "patient_dob": "1942-12-20",
+    "patient_address_name": null,
+    "patient_address": null,
+    "patient_work_address": null,
+    "patient_other_address": null,
+    "patient_city": null,
+    "patient_state": null,
+    "patient_zip_code": null,
+    "patient_phone": "+1-562-807-5610",
+    "house_phone": "(759)719-9499",
+    "work_phone": null,
+    "patient_signature": null,
+    "patient_email": null,
+    "date": null,
+    "provider_name": "Dr. Christopher Harris",
+    "provider_city": null,
+    "provider_state": null,
+    "provider_zip_code": null,
+    "referral_name": "Dr. Samuel Edwards",
+    "referral_city": null,
+    "referral_state": null,
+    "referral_zip_code": null,
+    "guardian_name": null,
+    "guardian_signature": null,
+    "guardian_relation": null,
+    "pharmacy_name": null,
+    "pharmacy_city": null,
+    "pharmacy_state": null,
+    "pharmacy_phone": null,
+    "medication_items": [
+        {
+            "medication": "Rosuvastatin",
+            "dose": "10 mg",
+            "frequency": "Once daily"
+        },
+        {
+            "medication": "Atorvastatin",
+            "dose": "20 mg",
+            "frequency": "Once daily"
+        }
+    ],
+    "allergy_list": [
+        {
+            "medication_allergies": "Metoprolol",
+            "medication_reaction": "Headache"
+        }
+    ],
+    "family_members": [],
+    "emergency_contacts": [],
+    "surgery_history": [
+        {
+            "surgery_type": "Knee Replacement",
+            "surgery_date": "2002-09-04",
+            "surgery_notes": "Successful outcome, patient stable."
+        }
+    ],
+    "diagnostics_list": [
+        {
+            "diagnostic_study": "Blood Panel",
+            "diagnostic_date": "2025-03-30",
+            "diagnostic_facility": "Cedar Valley Imaging Center"
+        }
+    ],
+    "therapies_list": [
+        {
+            "physical_therapy_date": "2025-04-26",
+            "chiropractor_date": "N/A",
+            "massage_date": "2025-06-26",
+            "acupuncture_date": "2025-09-12",
+            "psych_date": "N/A",
+            "other_date": "2025-02-18"
+        }
+    ]
+}
