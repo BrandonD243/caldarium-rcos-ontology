@@ -1,0 +1,55 @@
+{
+    "patient_name": "Beth Patterson",
+    "patient_dob": "1977-03-30",
+    "patient_address_name": "2985 Courtney Road",
+    "patient_address": "2985 Courtney Road, Greenefurt, Missouri 99268",
+    "patient_work_address": null,
+    "patient_other_address": null,
+    "patient_city": "Greenefurt",
+    "patient_state": "Missouri",
+    "patient_zip_code": "99268",
+    "patient_phone": "+1-232-785-6226",
+    "house_phone": "+1-465-243-1541",
+    "work_phone": "811.374.8805",
+    "patient_signature": "Beth Patterson",
+    "patient_email": "beth.patterson@gmail.com",
+    "date": "2025-11-03",
+    "provider_name": "Dr. Amanda Ross",
+    "provider_city": "North Haroldhaven",
+    "provider_state": "Missouri",
+    "provider_zip_code": "99239",
+    "referral_name": "Dr. Linda Moreno",
+    "referral_city": "Floreston",
+    "referral_state": "Missouri",
+    "referral_zip_code": "99046",
+    "guardian_name": "N/A",
+    "guardian_signature": "N/A",
+    "guardian_relation": "N/A",
+    "pharmacy_name": "Vitality Apothecary",
+    "pharmacy_city": "Welchchester",
+    "pharmacy_state": "Missouri",
+    "pharmacy_phone": "+1-324-353-1986",
+    "medication_items": [
+        {
+            "medication": "Metformin",
+            "dose": "500 mg",
+            "frequency": null
+        },
+        {
+            "medication": "Pantoprazole",
+            "dose": "40 mg",
+            "frequency": null
+        },
+        {
+            "medication": "Omeprazole",
+            "dose": "20 mg",
+            "frequency": null
+        }
+    ],
+    "allergy_list": [],
+    "family_members": [],
+    "emergency_contacts": [],
+    "surgery_history": [],
+    "diagnostics_list": [],
+    "therapies_list": []
+}

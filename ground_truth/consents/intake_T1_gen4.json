@@ -1,0 +1,55 @@
+{
+    "patient_name": "David Aguirre",
+    "patient_dob": "1997-11-18",
+    "patient_address_name": "2446 Reed Plain Suite 052",
+    "patient_address": "2446 Reed Plain Suite 052, Lake Michael, California 69283",
+    "patient_work_address": null,
+    "patient_other_address": null,
+    "patient_city": "Lake Michael",
+    "patient_state": "California",
+    "patient_zip_code": "69283",
+    "patient_phone": "572.658.0734",
+    "house_phone": "402.865.0937",
+    "work_phone": "307-570-9249",
+    "patient_signature": "David Aguirre",
+    "patient_email": "david.aguirre@gmail.com",
+    "date": "2025-11-03",
+    "provider_name": "Dr. Mary Webb",
+    "provider_city": "Bakerport",
+    "provider_state": "California",
+    "provider_zip_code": "69535",
+    "referral_name": "Dr. Amy Kirk",
+    "referral_city": "Lake Elizabethmouth",
+    "referral_state": "California",
+    "referral_zip_code": "69263",
+    "guardian_name": "N/A",
+    "guardian_signature": "N/A",
+    "guardian_relation": "N/A",
+    "pharmacy_name": "TrustCare Pharmacy",
+    "pharmacy_city": "North Bobbytown",
+    "pharmacy_state": "California",
+    "pharmacy_phone": "277-617-9084",
+    "medication_items": [
+        {
+            "medication": "Metoprolol",
+            "dose": "50 mg",
+            "frequency": null
+        },
+        {
+            "medication": "Prednisone",
+            "dose": "10 mg",
+            "frequency": null
+        },
+        {
+            "medication": "Fluoxetine",
+            "dose": "20 mg",
+            "frequency": null
+        }
+    ],
+    "allergy_list": [],
+    "family_members": [],
+    "emergency_contacts": [],
+    "surgery_history": [],
+    "diagnostics_list": [],
+    "therapies_list": []
+}

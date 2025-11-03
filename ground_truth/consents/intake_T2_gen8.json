@@ -1,0 +1,85 @@
+{
+    "patient_name": "Grace Rivera",
+    "patient_dob": "1996-12-24",
+    "patient_address_name": null,
+    "patient_address": null,
+    "patient_work_address": null,
+    "patient_other_address": null,
+    "patient_city": null,
+    "patient_state": null,
+    "patient_zip_code": null,
+    "patient_phone": "(232)819-3003",
+    "house_phone": "+1-620-753-8040",
+    "work_phone": null,
+    "patient_signature": null,
+    "patient_email": null,
+    "date": null,
+    "provider_name": "Dr. Justin Gonzales",
+    "provider_city": null,
+    "provider_state": null,
+    "provider_zip_code": null,
+    "referral_name": "Dr. Deborah Bailey",
+    "referral_city": null,
+    "referral_state": null,
+    "referral_zip_code": null,
+    "guardian_name": null,
+    "guardian_signature": null,
+    "guardian_relation": null,
+    "pharmacy_name": null,
+    "pharmacy_city": null,
+    "pharmacy_state": null,
+    "pharmacy_phone": null,
+    "medication_items": [
+        {
+            "medication": "Atorvastatin",
+            "dose": "20 mg",
+            "frequency": "Once daily"
+        }
+    ],
+    "allergy_list": [
+        {
+            "medication_allergies": "Rosuvastatin",
+            "medication_reaction": "Anaphylaxis"
+        },
+        {
+            "medication_allergies": "Sertraline",
+            "medication_reaction": "Nausea"
+        }
+    ],
+    "family_members": [],
+    "emergency_contacts": [],
+    "surgery_history": [
+        {
+            "surgery_type": "Heart Bypass Surgery",
+            "surgery_date": "2021-02-26",
+            "surgery_notes": "Routine recovery, no complications."
+        },
+        {
+            "surgery_type": "Hernia Repair",
+            "surgery_date": "2018-07-18",
+            "surgery_notes": "Minor infection treated successfully."
+        }
+    ],
+    "diagnostics_list": [
+        {
+            "diagnostic_study": "MRI Brain",
+            "diagnostic_date": "2025-03-29",
+            "diagnostic_facility": "Cedar Valley Imaging Center"
+        },
+        {
+            "diagnostic_study": "Urinalysis",
+            "diagnostic_date": "2025-01-17",
+            "diagnostic_facility": "Northside Medical Center"
+        }
+    ],
+    "therapies_list": [
+        {
+            "physical_therapy_date": "2025-07-26",
+            "chiropractor_date": "N/A",
+            "massage_date": "N/A",
+            "acupuncture_date": "N/A",
+            "psych_date": "2024-11-10",
+            "other_date": "2025-09-20"
+        }
+    ]
+}

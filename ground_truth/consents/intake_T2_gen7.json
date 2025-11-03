@@ -1,0 +1,64 @@
+{
+    "patient_name": "Laura Davis",
+    "patient_dob": "1943-11-11",
+    "patient_address_name": null,
+    "patient_address": null,
+    "patient_work_address": null,
+    "patient_other_address": null,
+    "patient_city": null,
+    "patient_state": null,
+    "patient_zip_code": null,
+    "patient_phone": "297-301-1923",
+    "house_phone": "333-422-2831",
+    "work_phone": null,
+    "patient_signature": null,
+    "patient_email": null,
+    "date": null,
+    "provider_name": "Dr. Jamie Livingston",
+    "provider_city": null,
+    "provider_state": null,
+    "provider_zip_code": null,
+    "referral_name": "Dr. Andrea Foster",
+    "referral_city": null,
+    "referral_state": null,
+    "referral_zip_code": null,
+    "guardian_name": null,
+    "guardian_signature": null,
+    "guardian_relation": null,
+    "pharmacy_name": null,
+    "pharmacy_city": null,
+    "pharmacy_state": null,
+    "pharmacy_phone": null,
+    "medication_items": [],
+    "allergy_list": [],
+    "family_members": [],
+    "emergency_contacts": [],
+    "surgery_history": [],
+    "diagnostics_list": [
+        {
+            "diagnostic_study": "CT Abdomen",
+            "diagnostic_date": "2025-08-19",
+            "diagnostic_facility": "Cedar Valley Imaging Center"
+        },
+        {
+            "diagnostic_study": "Blood Panel",
+            "diagnostic_date": "2025-03-08",
+            "diagnostic_facility": "Cedar Valley Imaging Center"
+        },
+        {
+            "diagnostic_study": "Blood Panel",
+            "diagnostic_date": "2025-08-14",
+            "diagnostic_facility": "Community Health Labs"
+        }
+    ],
+    "therapies_list": [
+        {
+            "physical_therapy_date": "2025-03-03",
+            "chiropractor_date": "N/A",
+            "massage_date": "2025-06-18",
+            "acupuncture_date": "N/A",
+            "psych_date": "N/A",
+            "other_date": "2025-01-21"
+        }
+    ]
+}
