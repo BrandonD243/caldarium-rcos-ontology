@@ -1,0 +1,61 @@
+{
+  "properties": {
+    "patient_signature": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Patient Signature"
+    },
+    "guardian_signature": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Guardian Signature"
+    },
+    "date": {
+      "title": "Date",
+      "type": "string"
+    },
+    "consent_type": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Consent Type"
+    },
+    "provider_signature": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Provider Signature"
+    }
+  },
+  "required": [
+    "date"
+  ],
+  "title": "Consent",
+  "type": "object"
+}

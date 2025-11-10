@@ -1,0 +1,958 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-11-06">
+    <creator>NetworkX 3.5</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="dynamic" name="" timeformat="date">
+    <attributes mode="static" class="edge">
+      <attribute id="16" title="relation" type="string" />
+    </attributes>
+    <attributes mode="dynamic" class="node">
+      <attribute id="10" title="line_items" type="string" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="name" type="string" />
+      <attribute id="2" title="dob" type="string" />
+      <attribute id="3" title="patient_id" type="string" />
+      <attribute id="4" title="admission_date" type="string" />
+      <attribute id="5" title="discharge_date" type="string" />
+      <attribute id="6" title="provider_name" type="string" />
+      <attribute id="7" title="provider_address_name" type="string" />
+      <attribute id="8" title="total_amount" type="double" />
+      <attribute id="9" title="invoice_number" type="string" />
+      <attribute id="11" title="consent_type" type="string" />
+      <attribute id="12" title="date" type="string" />
+      <attribute id="13" title="patient_signature" type="string" />
+      <attribute id="14" title="guardian_signature" type="string" />
+      <attribute id="15" title="provider_signature" type="string" />
+    </attributes>
+    <nodes>
+      <node id="pat:heather_anderson" label="pat:heather_anderson">
+        <attvalues>
+          <attvalue for="0" value="Patient" />
+          <attvalue for="1" value="Heather Anderson" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="MRN53310" />
+        </attvalues>
+      </node>
+      <node id="enc:heather_anderson:2020-03-22" label="enc:heather_anderson:2020-03-22">
+        <attvalues>
+          <attvalue for="0" value="Encounter" />
+          <attvalue for="4" value="2020-03-22" />
+          <attvalue for="5" value="2020-03-28" />
+          <attvalue for="6" value="" />
+          <attvalue for="7" value="" />
+        </attvalues>
+      </node>
+      <node id="clm:invoice_T1_gen1" label="clm:invoice_T1_gen1">
+        <attvalues>
+          <attvalue for="0" value="Claim" />
+          <attvalue for="8" value="251.55" />
+          <attvalue for="9" value="INV377776" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+        </attvalues>
+      </node>
+      <node id="pat:janet_mckenzie" label="pat:janet_mckenzie">
+        <attvalues>
+          <attvalue for="0" value="Patient" />
+          <attvalue for="1" value="Janet Mckenzie" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="MRN31790" />
+        </attvalues>
+      </node>
+      <node id="enc:janet_mckenzie:1983-04-10" label="enc:janet_mckenzie:1983-04-10">
+        <attvalues>
+          <attvalue for="0" value="Encounter" />
+          <attvalue for="4" value="1983-04-10" />
+          <attvalue for="5" value="1983-04-24" />
+          <attvalue for="6" value="" />
+          <attvalue for="7" value="" />
+        </attvalues>
+      </node>
+      <node id="clm:invoice_T1_gen2" label="clm:invoice_T1_gen2">
+        <attvalues>
+          <attvalue for="0" value="Claim" />
+          <attvalue for="8" value="959.1" />
+          <attvalue for="9" value="INV665469" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+        </attvalues>
+      </node>
+      <node id="pat:manuel_gutierrez" label="pat:manuel_gutierrez">
+        <attvalues>
+          <attvalue for="0" value="Patient" />
+          <attvalue for="1" value="Manuel Gutierrez" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="MRN38745" />
+        </attvalues>
+      </node>
+      <node id="enc:manuel_gutierrez:2012-01-25" label="enc:manuel_gutierrez:2012-01-25">
+        <attvalues>
+          <attvalue for="0" value="Encounter" />
+          <attvalue for="4" value="2012-01-25" />
+          <attvalue for="5" value="2012-02-01" />
+          <attvalue for="6" value="" />
+          <attvalue for="7" value="" />
+        </attvalues>
+      </node>
+      <node id="clm:invoice_T1_gen3" label="clm:invoice_T1_gen3">
+        <attvalues>
+          <attvalue for="0" value="Claim" />
+          <attvalue for="8" value="499.88" />
+          <attvalue for="9" value="INV701760" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+        </attvalues>
+      </node>
+      <node id="pat:brian_johnson" label="pat:brian_johnson">
+        <attvalues>
+          <attvalue for="0" value="Patient" />
+          <attvalue for="1" value="Brian Johnson" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="MRN92331" />
+        </attvalues>
+      </node>
+      <node id="enc:brian_johnson:1998-03-31" label="enc:brian_johnson:1998-03-31">
+        <attvalues>
+          <attvalue for="0" value="Encounter" />
+          <attvalue for="4" value="1998-03-31" />
+          <attvalue for="5" value="1998-04-12" />
+          <attvalue for="6" value="" />
+          <attvalue for="7" value="" />
+        </attvalues>
+      </node>
+      <node id="clm:invoice_T1_gen4" label="clm:invoice_T1_gen4">
+        <attvalues>
+          <attvalue for="0" value="Claim" />
+          <attvalue for="8" value="168.75" />
+          <attvalue for="9" value="INV146372" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+        </attvalues>
+      </node>
+      <node id="pat:monique_hancock" label="pat:monique_hancock">
+        <attvalues>
+          <attvalue for="0" value="Patient" />
+          <attvalue for="1" value="Monique Hancock" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="MRN59273" />
+        </attvalues>
+      </node>
+      <node id="enc:monique_hancock:1972-03-05" label="enc:monique_hancock:1972-03-05">
+        <attvalues>
+          <attvalue for="0" value="Encounter" />
+          <attvalue for="4" value="1972-03-05" />
+          <attvalue for="5" value="1972-03-15" />
+          <attvalue for="6" value="" />
+          <attvalue for="7" value="" />
+        </attvalues>
+      </node>
+      <node id="clm:invoice_T1_gen5" label="clm:invoice_T1_gen5">
+        <attvalues>
+          <attvalue for="0" value="Claim" />
+          <attvalue for="8" value="249.9" />
+          <attvalue for="9" value="INV970003" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+        </attvalues>
+      </node>
+      <node id="pat:leslie_marshall" label="pat:leslie_marshall">
+        <attvalues>
+          <attvalue for="0" value="Patient" />
+          <attvalue for="1" value="Leslie Marshall" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="MRN78120" />
+        </attvalues>
+      </node>
+      <node id="enc:leslie_marshall:2012-04-03" label="enc:leslie_marshall:2012-04-03">
+        <attvalues>
+          <attvalue for="0" value="Encounter" />
+          <attvalue for="4" value="2012-04-03" />
+          <attvalue for="5" value="2012-04-15" />
+          <attvalue for="6" value="" />
+          <attvalue for="7" value="" />
+        </attvalues>
+      </node>
+      <node id="clm:invoice_T1_gen6" label="clm:invoice_T1_gen6">
+        <attvalues>
+          <attvalue for="0" value="Claim" />
+          <attvalue for="8" value="353.62" />
+          <attvalue for="9" value="INV473732" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+        </attvalues>
+      </node>
+      <node id="pat:jennifer_patterson" label="pat:jennifer_patterson">
+        <attvalues>
+          <attvalue for="0" value="Patient" />
+          <attvalue for="1" value="Jennifer Patterson" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="" />
+        </attvalues>
+      </node>
+      <node id="enc:jennifer_patterson:None" label="enc:jennifer_patterson:None">
+        <attvalues>
+          <attvalue for="0" value="Encounter" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="" />
+          <attvalue for="6" value="" />
+          <attvalue for="7" value="" />
+        </attvalues>
+      </node>
+      <node id="clm:invoice_T2_gen1" label="clm:invoice_T2_gen1">
+        <attvalues>
+          <attvalue for="0" value="Claim" />
+          <attvalue for="8" value="2429.62" />
+          <attvalue for="9" value="INV492305" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+        </attvalues>
+      </node>
+      <node id="pat:david_chan_ii" label="pat:david_chan_ii">
+        <attvalues>
+          <attvalue for="0" value="Patient" />
+          <attvalue for="1" value="David Chan II" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="" />
+        </attvalues>
+      </node>
+      <node id="enc:david_chan_ii:None" label="enc:david_chan_ii:None">
+        <attvalues>
+          <attvalue for="0" value="Encounter" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="" />
+          <attvalue for="6" value="" />
+          <attvalue for="7" value="" />
+        </attvalues>
+      </node>
+      <node id="clm:invoice_T2_gen2" label="clm:invoice_T2_gen2">
+        <attvalues>
+          <attvalue for="0" value="Claim" />
+          <attvalue for="8" value="444.12" />
+          <attvalue for="9" value="INV257144" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+        </attvalues>
+      </node>
+      <node id="pat:jennifer_cunningham" label="pat:jennifer_cunningham">
+        <attvalues>
+          <attvalue for="0" value="Patient" />
+          <attvalue for="1" value="Jennifer Cunningham" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="" />
+        </attvalues>
+      </node>
+      <node id="enc:jennifer_cunningham:None" label="enc:jennifer_cunningham:None">
+        <attvalues>
+          <attvalue for="0" value="Encounter" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="" />
+          <attvalue for="6" value="" />
+          <attvalue for="7" value="" />
+        </attvalues>
+      </node>
+      <node id="clm:invoice_T2_gen3" label="clm:invoice_T2_gen3">
+        <attvalues>
+          <attvalue for="0" value="Claim" />
+          <attvalue for="8" value="1666.78" />
+          <attvalue for="9" value="INV26344" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+        </attvalues>
+      </node>
+      <node id="pat:diana_osborne" label="pat:diana_osborne">
+        <attvalues>
+          <attvalue for="0" value="Patient" />
+          <attvalue for="1" value="Diana Osborne" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="" />
+        </attvalues>
+      </node>
+      <node id="enc:diana_osborne:None" label="enc:diana_osborne:None">
+        <attvalues>
+          <attvalue for="0" value="Encounter" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="" />
+          <attvalue for="6" value="" />
+          <attvalue for="7" value="" />
+        </attvalues>
+      </node>
+      <node id="clm:invoice_T2_gen4" label="clm:invoice_T2_gen4">
+        <attvalues>
+          <attvalue for="0" value="Claim" />
+          <attvalue for="8" value="188.1" />
+          <attvalue for="9" value="INV931982" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+        </attvalues>
+      </node>
+      <node id="pat:robert_martinez" label="pat:robert_martinez">
+        <attvalues>
+          <attvalue for="0" value="Patient" />
+          <attvalue for="1" value="Robert Martinez" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="" />
+        </attvalues>
+      </node>
+      <node id="enc:robert_martinez:None" label="enc:robert_martinez:None">
+        <attvalues>
+          <attvalue for="0" value="Encounter" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="" />
+          <attvalue for="6" value="" />
+          <attvalue for="7" value="" />
+        </attvalues>
+      </node>
+      <node id="clm:invoice_T2_gen5" label="clm:invoice_T2_gen5">
+        <attvalues>
+          <attvalue for="0" value="Claim" />
+          <attvalue for="8" value="449.35" />
+          <attvalue for="9" value="INV290431" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+        </attvalues>
+      </node>
+      <node id="pat:christopher_olson" label="pat:christopher_olson">
+        <attvalues>
+          <attvalue for="0" value="Patient" />
+          <attvalue for="1" value="Christopher Olson" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="" />
+        </attvalues>
+      </node>
+      <node id="enc:christopher_olson:None" label="enc:christopher_olson:None">
+        <attvalues>
+          <attvalue for="0" value="Encounter" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="" />
+          <attvalue for="6" value="" />
+          <attvalue for="7" value="" />
+        </attvalues>
+      </node>
+      <node id="clm:invoice_T2_gen6" label="clm:invoice_T2_gen6">
+        <attvalues>
+          <attvalue for="0" value="Claim" />
+          <attvalue for="8" value="151.53" />
+          <attvalue for="9" value="INV668264" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+        </attvalues>
+      </node>
+      <node id="pat:mr._patrick_franklin" label="pat:mr._patrick_franklin">
+        <attvalues>
+          <attvalue for="0" value="Patient" />
+          <attvalue for="1" value="Mr. Patrick Franklin" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="" />
+        </attvalues>
+      </node>
+      <node id="enc:mr._patrick_franklin:None" label="enc:mr._patrick_franklin:None">
+        <attvalues>
+          <attvalue for="0" value="Encounter" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="" />
+          <attvalue for="6" value="" />
+          <attvalue for="7" value="" />
+        </attvalues>
+      </node>
+      <node id="clm:invoice_T3_gen1" label="clm:invoice_T3_gen1">
+        <attvalues>
+          <attvalue for="0" value="Claim" />
+          <attvalue for="8" value="1485.23" />
+          <attvalue for="9" value="INV244194" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+        </attvalues>
+      </node>
+      <node id="pat:angel_kaiser" label="pat:angel_kaiser">
+        <attvalues>
+          <attvalue for="0" value="Patient" />
+          <attvalue for="1" value="Angel Kaiser" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="" />
+        </attvalues>
+      </node>
+      <node id="enc:angel_kaiser:None" label="enc:angel_kaiser:None">
+        <attvalues>
+          <attvalue for="0" value="Encounter" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="" />
+          <attvalue for="6" value="" />
+          <attvalue for="7" value="" />
+        </attvalues>
+      </node>
+      <node id="clm:invoice_T3_gen2" label="clm:invoice_T3_gen2">
+        <attvalues>
+          <attvalue for="0" value="Claim" />
+          <attvalue for="8" value="218.93" />
+          <attvalue for="9" value="INV140822" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+        </attvalues>
+      </node>
+      <node id="pat:angela_holmes" label="pat:angela_holmes">
+        <attvalues>
+          <attvalue for="0" value="Patient" />
+          <attvalue for="1" value="Angela Holmes" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="" />
+        </attvalues>
+      </node>
+      <node id="enc:angela_holmes:None" label="enc:angela_holmes:None">
+        <attvalues>
+          <attvalue for="0" value="Encounter" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="" />
+          <attvalue for="6" value="" />
+          <attvalue for="7" value="" />
+        </attvalues>
+      </node>
+      <node id="clm:invoice_T3_gen3" label="clm:invoice_T3_gen3">
+        <attvalues>
+          <attvalue for="0" value="Claim" />
+          <attvalue for="8" value="472.8" />
+          <attvalue for="9" value="INV590270" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+        </attvalues>
+      </node>
+      <node id="pat:david_ortiz" label="pat:david_ortiz">
+        <attvalues>
+          <attvalue for="0" value="Patient" />
+          <attvalue for="1" value="David Ortiz" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="" />
+        </attvalues>
+      </node>
+      <node id="enc:david_ortiz:None" label="enc:david_ortiz:None">
+        <attvalues>
+          <attvalue for="0" value="Encounter" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="" />
+          <attvalue for="6" value="" />
+          <attvalue for="7" value="" />
+        </attvalues>
+      </node>
+      <node id="clm:invoice_T3_gen4" label="clm:invoice_T3_gen4">
+        <attvalues>
+          <attvalue for="0" value="Claim" />
+          <attvalue for="8" value="238.75" />
+          <attvalue for="9" value="INV13151" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+        </attvalues>
+      </node>
+      <node id="pat:miss_julie_jackson_md" label="pat:miss_julie_jackson_md">
+        <attvalues>
+          <attvalue for="0" value="Patient" />
+          <attvalue for="1" value="Miss Julie Jackson MD" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="" />
+        </attvalues>
+      </node>
+      <node id="enc:miss_julie_jackson_md:None" label="enc:miss_julie_jackson_md:None">
+        <attvalues>
+          <attvalue for="0" value="Encounter" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="" />
+          <attvalue for="6" value="" />
+          <attvalue for="7" value="" />
+        </attvalues>
+      </node>
+      <node id="clm:invoice_T3_gen5" label="clm:invoice_T3_gen5">
+        <attvalues>
+          <attvalue for="0" value="Claim" />
+          <attvalue for="8" value="205.7" />
+          <attvalue for="9" value="INV498431" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+        </attvalues>
+      </node>
+      <node id="pat:casey_king" label="pat:casey_king">
+        <attvalues>
+          <attvalue for="0" value="Patient" />
+          <attvalue for="1" value="Casey King" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="" />
+        </attvalues>
+      </node>
+      <node id="enc:casey_king:None" label="enc:casey_king:None">
+        <attvalues>
+          <attvalue for="0" value="Encounter" />
+          <attvalue for="4" value="" />
+          <attvalue for="5" value="" />
+          <attvalue for="6" value="" />
+          <attvalue for="7" value="" />
+        </attvalues>
+      </node>
+      <node id="clm:invoice_T3_gen6" label="clm:invoice_T3_gen6">
+        <attvalues>
+          <attvalue for="0" value="Claim" />
+          <attvalue for="8" value="696.52" />
+          <attvalue for="9" value="INV37657" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+          <attvalue for="10" value="description" start="amount" end="code" />
+        </attvalues>
+      </node>
+      <node id="cons:intake_T1_gen1" label="cons:intake_T1_gen1">
+        <attvalues>
+          <attvalue for="0" value="Consent" />
+          <attvalue for="11" value="" />
+          <attvalue for="12" value="2025-11-03" />
+          <attvalue for="13" value="April Meza" />
+          <attvalue for="14" value="Kenneth Meza" />
+          <attvalue for="15" value="" />
+        </attvalues>
+      </node>
+      <node id="pat:april_meza" label="pat:april_meza" />
+      <node id="cons:intake_T1_gen2" label="cons:intake_T1_gen2">
+        <attvalues>
+          <attvalue for="0" value="Consent" />
+          <attvalue for="11" value="" />
+          <attvalue for="12" value="2025-11-03" />
+          <attvalue for="13" value="Jacqueline Jones" />
+          <attvalue for="14" value="N/A" />
+          <attvalue for="15" value="" />
+        </attvalues>
+      </node>
+      <node id="pat:jacqueline_jones" label="pat:jacqueline_jones" />
+      <node id="cons:intake_T1_gen3" label="cons:intake_T1_gen3">
+        <attvalues>
+          <attvalue for="0" value="Consent" />
+          <attvalue for="11" value="" />
+          <attvalue for="12" value="2025-11-03" />
+          <attvalue for="13" value="Beth Patterson" />
+          <attvalue for="14" value="N/A" />
+          <attvalue for="15" value="" />
+        </attvalues>
+      </node>
+      <node id="pat:beth_patterson" label="pat:beth_patterson" />
+      <node id="cons:intake_T1_gen4" label="cons:intake_T1_gen4">
+        <attvalues>
+          <attvalue for="0" value="Consent" />
+          <attvalue for="11" value="" />
+          <attvalue for="12" value="2025-11-03" />
+          <attvalue for="13" value="David Aguirre" />
+          <attvalue for="14" value="N/A" />
+          <attvalue for="15" value="" />
+        </attvalues>
+      </node>
+      <node id="pat:david_aguirre" label="pat:david_aguirre" />
+      <node id="cons:intake_T1_gen5" label="cons:intake_T1_gen5">
+        <attvalues>
+          <attvalue for="0" value="Consent" />
+          <attvalue for="11" value="" />
+          <attvalue for="12" value="2025-11-03" />
+          <attvalue for="13" value="Bethany Hill" />
+          <attvalue for="14" value="N/A" />
+          <attvalue for="15" value="" />
+        </attvalues>
+      </node>
+      <node id="pat:bethany_hill" label="pat:bethany_hill" />
+      <node id="cons:intake_T1_gen6" label="cons:intake_T1_gen6">
+        <attvalues>
+          <attvalue for="0" value="Consent" />
+          <attvalue for="11" value="" />
+          <attvalue for="12" value="2025-11-03" />
+          <attvalue for="13" value="James Gibson" />
+          <attvalue for="14" value="N/A" />
+          <attvalue for="15" value="" />
+        </attvalues>
+      </node>
+      <node id="pat:james_gibson" label="pat:james_gibson" />
+      <node id="cons:intake_T1_gen7" label="cons:intake_T1_gen7">
+        <attvalues>
+          <attvalue for="0" value="Consent" />
+          <attvalue for="11" value="" />
+          <attvalue for="12" value="2025-11-03" />
+          <attvalue for="13" value="David Rivera" />
+          <attvalue for="14" value="N/A" />
+          <attvalue for="15" value="" />
+        </attvalues>
+      </node>
+      <node id="pat:david_rivera" label="pat:david_rivera" />
+      <node id="cons:intake_T1_gen8" label="cons:intake_T1_gen8">
+        <attvalues>
+          <attvalue for="0" value="Consent" />
+          <attvalue for="11" value="" />
+          <attvalue for="12" value="2025-11-03" />
+          <attvalue for="13" value="Bradley Rich" />
+          <attvalue for="14" value="N/A" />
+          <attvalue for="15" value="" />
+        </attvalues>
+      </node>
+      <node id="pat:bradley_rich" label="pat:bradley_rich" />
+      <node id="cons:intake_T2_gen1" label="cons:intake_T2_gen1">
+        <attvalues>
+          <attvalue for="0" value="Consent" />
+          <attvalue for="11" value="" />
+          <attvalue for="12" value="" />
+          <attvalue for="13" value="" />
+          <attvalue for="14" value="" />
+          <attvalue for="15" value="" />
+        </attvalues>
+      </node>
+      <node id="pat:michael_frazier" label="pat:michael_frazier" />
+      <node id="cons:intake_T2_gen2" label="cons:intake_T2_gen2">
+        <attvalues>
+          <attvalue for="0" value="Consent" />
+          <attvalue for="11" value="" />
+          <attvalue for="12" value="" />
+          <attvalue for="13" value="" />
+          <attvalue for="14" value="" />
+          <attvalue for="15" value="" />
+        </attvalues>
+      </node>
+      <node id="pat:rachel_lynch" label="pat:rachel_lynch" />
+      <node id="cons:intake_T2_gen3" label="cons:intake_T2_gen3">
+        <attvalues>
+          <attvalue for="0" value="Consent" />
+          <attvalue for="11" value="" />
+          <attvalue for="12" value="" />
+          <attvalue for="13" value="" />
+          <attvalue for="14" value="" />
+          <attvalue for="15" value="" />
+        </attvalues>
+      </node>
+      <node id="pat:marc_lowe" label="pat:marc_lowe" />
+      <node id="cons:intake_T2_gen4" label="cons:intake_T2_gen4">
+        <attvalues>
+          <attvalue for="0" value="Consent" />
+          <attvalue for="11" value="" />
+          <attvalue for="12" value="" />
+          <attvalue for="13" value="" />
+          <attvalue for="14" value="" />
+          <attvalue for="15" value="" />
+        </attvalues>
+      </node>
+      <node id="pat:lacey_davidson" label="pat:lacey_davidson" />
+      <node id="cons:intake_T2_gen5" label="cons:intake_T2_gen5">
+        <attvalues>
+          <attvalue for="0" value="Consent" />
+          <attvalue for="11" value="" />
+          <attvalue for="12" value="" />
+          <attvalue for="13" value="" />
+          <attvalue for="14" value="" />
+          <attvalue for="15" value="" />
+        </attvalues>
+      </node>
+      <node id="pat:david_buchanan" label="pat:david_buchanan" />
+      <node id="cons:intake_T2_gen6" label="cons:intake_T2_gen6">
+        <attvalues>
+          <attvalue for="0" value="Consent" />
+          <attvalue for="11" value="" />
+          <attvalue for="12" value="" />
+          <attvalue for="13" value="" />
+          <attvalue for="14" value="" />
+          <attvalue for="15" value="" />
+        </attvalues>
+      </node>
+      <node id="pat:angel_castro" label="pat:angel_castro" />
+      <node id="cons:intake_T2_gen7" label="cons:intake_T2_gen7">
+        <attvalues>
+          <attvalue for="0" value="Consent" />
+          <attvalue for="11" value="" />
+          <attvalue for="12" value="" />
+          <attvalue for="13" value="" />
+          <attvalue for="14" value="" />
+          <attvalue for="15" value="" />
+        </attvalues>
+      </node>
+      <node id="pat:laura_davis" label="pat:laura_davis" />
+      <node id="cons:intake_T2_gen8" label="cons:intake_T2_gen8">
+        <attvalues>
+          <attvalue for="0" value="Consent" />
+          <attvalue for="11" value="" />
+          <attvalue for="12" value="" />
+          <attvalue for="13" value="" />
+          <attvalue for="14" value="" />
+          <attvalue for="15" value="" />
+        </attvalues>
+      </node>
+      <node id="pat:grace_rivera" label="pat:grace_rivera" />
+    </nodes>
+    <edges>
+      <edge source="pat:heather_anderson" target="enc:heather_anderson:2020-03-22" id="0">
+        <attvalues>
+          <attvalue for="16" value="has_encounter" />
+        </attvalues>
+      </edge>
+      <edge source="enc:heather_anderson:2020-03-22" target="clm:invoice_T1_gen1" id="1">
+        <attvalues>
+          <attvalue for="16" value="generates_claim" />
+        </attvalues>
+      </edge>
+      <edge source="pat:janet_mckenzie" target="enc:janet_mckenzie:1983-04-10" id="2">
+        <attvalues>
+          <attvalue for="16" value="has_encounter" />
+        </attvalues>
+      </edge>
+      <edge source="enc:janet_mckenzie:1983-04-10" target="clm:invoice_T1_gen2" id="3">
+        <attvalues>
+          <attvalue for="16" value="generates_claim" />
+        </attvalues>
+      </edge>
+      <edge source="pat:manuel_gutierrez" target="enc:manuel_gutierrez:2012-01-25" id="4">
+        <attvalues>
+          <attvalue for="16" value="has_encounter" />
+        </attvalues>
+      </edge>
+      <edge source="enc:manuel_gutierrez:2012-01-25" target="clm:invoice_T1_gen3" id="5">
+        <attvalues>
+          <attvalue for="16" value="generates_claim" />
+        </attvalues>
+      </edge>
+      <edge source="pat:brian_johnson" target="enc:brian_johnson:1998-03-31" id="6">
+        <attvalues>
+          <attvalue for="16" value="has_encounter" />
+        </attvalues>
+      </edge>
+      <edge source="enc:brian_johnson:1998-03-31" target="clm:invoice_T1_gen4" id="7">
+        <attvalues>
+          <attvalue for="16" value="generates_claim" />
+        </attvalues>
+      </edge>
+      <edge source="pat:monique_hancock" target="enc:monique_hancock:1972-03-05" id="8">
+        <attvalues>
+          <attvalue for="16" value="has_encounter" />
+        </attvalues>
+      </edge>
+      <edge source="enc:monique_hancock:1972-03-05" target="clm:invoice_T1_gen5" id="9">
+        <attvalues>
+          <attvalue for="16" value="generates_claim" />
+        </attvalues>
+      </edge>
+      <edge source="pat:leslie_marshall" target="enc:leslie_marshall:2012-04-03" id="10">
+        <attvalues>
+          <attvalue for="16" value="has_encounter" />
+        </attvalues>
+      </edge>
+      <edge source="enc:leslie_marshall:2012-04-03" target="clm:invoice_T1_gen6" id="11">
+        <attvalues>
+          <attvalue for="16" value="generates_claim" />
+        </attvalues>
+      </edge>
+      <edge source="pat:jennifer_patterson" target="enc:jennifer_patterson:None" id="12">
+        <attvalues>
+          <attvalue for="16" value="has_encounter" />
+        </attvalues>
+      </edge>
+      <edge source="enc:jennifer_patterson:None" target="clm:invoice_T2_gen1" id="13">
+        <attvalues>
+          <attvalue for="16" value="generates_claim" />
+        </attvalues>
+      </edge>
+      <edge source="pat:david_chan_ii" target="enc:david_chan_ii:None" id="14">
+        <attvalues>
+          <attvalue for="16" value="has_encounter" />
+        </attvalues>
+      </edge>
+      <edge source="enc:david_chan_ii:None" target="clm:invoice_T2_gen2" id="15">
+        <attvalues>
+          <attvalue for="16" value="generates_claim" />
+        </attvalues>
+      </edge>
+      <edge source="pat:jennifer_cunningham" target="enc:jennifer_cunningham:None" id="16">
+        <attvalues>
+          <attvalue for="16" value="has_encounter" />
+        </attvalues>
+      </edge>
+      <edge source="enc:jennifer_cunningham:None" target="clm:invoice_T2_gen3" id="17">
+        <attvalues>
+          <attvalue for="16" value="generates_claim" />
+        </attvalues>
+      </edge>
+      <edge source="pat:diana_osborne" target="enc:diana_osborne:None" id="18">
+        <attvalues>
+          <attvalue for="16" value="has_encounter" />
+        </attvalues>
+      </edge>
+      <edge source="enc:diana_osborne:None" target="clm:invoice_T2_gen4" id="19">
+        <attvalues>
+          <attvalue for="16" value="generates_claim" />
+        </attvalues>
+      </edge>
+      <edge source="pat:robert_martinez" target="enc:robert_martinez:None" id="20">
+        <attvalues>
+          <attvalue for="16" value="has_encounter" />
+        </attvalues>
+      </edge>
+      <edge source="enc:robert_martinez:None" target="clm:invoice_T2_gen5" id="21">
+        <attvalues>
+          <attvalue for="16" value="generates_claim" />
+        </attvalues>
+      </edge>
+      <edge source="pat:christopher_olson" target="enc:christopher_olson:None" id="22">
+        <attvalues>
+          <attvalue for="16" value="has_encounter" />
+        </attvalues>
+      </edge>
+      <edge source="enc:christopher_olson:None" target="clm:invoice_T2_gen6" id="23">
+        <attvalues>
+          <attvalue for="16" value="generates_claim" />
+        </attvalues>
+      </edge>
+      <edge source="pat:mr._patrick_franklin" target="enc:mr._patrick_franklin:None" id="24">
+        <attvalues>
+          <attvalue for="16" value="has_encounter" />
+        </attvalues>
+      </edge>
+      <edge source="enc:mr._patrick_franklin:None" target="clm:invoice_T3_gen1" id="25">
+        <attvalues>
+          <attvalue for="16" value="generates_claim" />
+        </attvalues>
+      </edge>
+      <edge source="pat:angel_kaiser" target="enc:angel_kaiser:None" id="26">
+        <attvalues>
+          <attvalue for="16" value="has_encounter" />
+        </attvalues>
+      </edge>
+      <edge source="enc:angel_kaiser:None" target="clm:invoice_T3_gen2" id="27">
+        <attvalues>
+          <attvalue for="16" value="generates_claim" />
+        </attvalues>
+      </edge>
+      <edge source="pat:angela_holmes" target="enc:angela_holmes:None" id="28">
+        <attvalues>
+          <attvalue for="16" value="has_encounter" />
+        </attvalues>
+      </edge>
+      <edge source="enc:angela_holmes:None" target="clm:invoice_T3_gen3" id="29">
+        <attvalues>
+          <attvalue for="16" value="generates_claim" />
+        </attvalues>
+      </edge>
+      <edge source="pat:david_ortiz" target="enc:david_ortiz:None" id="30">
+        <attvalues>
+          <attvalue for="16" value="has_encounter" />
+        </attvalues>
+      </edge>
+      <edge source="enc:david_ortiz:None" target="clm:invoice_T3_gen4" id="31">
+        <attvalues>
+          <attvalue for="16" value="generates_claim" />
+        </attvalues>
+      </edge>
+      <edge source="pat:miss_julie_jackson_md" target="enc:miss_julie_jackson_md:None" id="32">
+        <attvalues>
+          <attvalue for="16" value="has_encounter" />
+        </attvalues>
+      </edge>
+      <edge source="enc:miss_julie_jackson_md:None" target="clm:invoice_T3_gen5" id="33">
+        <attvalues>
+          <attvalue for="16" value="generates_claim" />
+        </attvalues>
+      </edge>
+      <edge source="pat:casey_king" target="enc:casey_king:None" id="34">
+        <attvalues>
+          <attvalue for="16" value="has_encounter" />
+        </attvalues>
+      </edge>
+      <edge source="enc:casey_king:None" target="clm:invoice_T3_gen6" id="35">
+        <attvalues>
+          <attvalue for="16" value="generates_claim" />
+        </attvalues>
+      </edge>
+      <edge source="pat:april_meza" target="cons:intake_T1_gen1" id="36">
+        <attvalues>
+          <attvalue for="16" value="has_consent" />
+        </attvalues>
+      </edge>
+      <edge source="pat:jacqueline_jones" target="cons:intake_T1_gen2" id="37">
+        <attvalues>
+          <attvalue for="16" value="has_consent" />
+        </attvalues>
+      </edge>
+      <edge source="pat:beth_patterson" target="cons:intake_T1_gen3" id="38">
+        <attvalues>
+          <attvalue for="16" value="has_consent" />
+        </attvalues>
+      </edge>
+      <edge source="pat:david_aguirre" target="cons:intake_T1_gen4" id="39">
+        <attvalues>
+          <attvalue for="16" value="has_consent" />
+        </attvalues>
+      </edge>
+      <edge source="pat:bethany_hill" target="cons:intake_T1_gen5" id="40">
+        <attvalues>
+          <attvalue for="16" value="has_consent" />
+        </attvalues>
+      </edge>
+      <edge source="pat:james_gibson" target="cons:intake_T1_gen6" id="41">
+        <attvalues>
+          <attvalue for="16" value="has_consent" />
+        </attvalues>
+      </edge>
+      <edge source="pat:david_rivera" target="cons:intake_T1_gen7" id="42">
+        <attvalues>
+          <attvalue for="16" value="has_consent" />
+        </attvalues>
+      </edge>
+      <edge source="pat:bradley_rich" target="cons:intake_T1_gen8" id="43">
+        <attvalues>
+          <attvalue for="16" value="has_consent" />
+        </attvalues>
+      </edge>
+      <edge source="pat:michael_frazier" target="cons:intake_T2_gen1" id="44">
+        <attvalues>
+          <attvalue for="16" value="has_consent" />
+        </attvalues>
+      </edge>
+      <edge source="pat:rachel_lynch" target="cons:intake_T2_gen2" id="45">
+        <attvalues>
+          <attvalue for="16" value="has_consent" />
+        </attvalues>
+      </edge>
+      <edge source="pat:marc_lowe" target="cons:intake_T2_gen3" id="46">
+        <attvalues>
+          <attvalue for="16" value="has_consent" />
+        </attvalues>
+      </edge>
+      <edge source="pat:lacey_davidson" target="cons:intake_T2_gen4" id="47">
+        <attvalues>
+          <attvalue for="16" value="has_consent" />
+        </attvalues>
+      </edge>
+      <edge source="pat:david_buchanan" target="cons:intake_T2_gen5" id="48">
+        <attvalues>
+          <attvalue for="16" value="has_consent" />
+        </attvalues>
+      </edge>
+      <edge source="pat:angel_castro" target="cons:intake_T2_gen6" id="49">
+        <attvalues>
+          <attvalue for="16" value="has_consent" />
+        </attvalues>
+      </edge>
+      <edge source="pat:laura_davis" target="cons:intake_T2_gen7" id="50">
+        <attvalues>
+          <attvalue for="16" value="has_consent" />
+        </attvalues>
+      </edge>
+      <edge source="pat:grace_rivera" target="cons:intake_T2_gen8" id="51">
+        <attvalues>
+          <attvalue for="16" value="has_consent" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

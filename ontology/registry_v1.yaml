@@ -1,160 +1,39 @@
-# ontology/registry_v1.yaml
 entities:
 
   Patient:
     fields:
-      patient_name:        { type: string,  required: true,  sensitive: true }
-      patient_first_name:  { type: string,  required: false, sensitive: true }
-      patient_middle_name: { type: string,  required: false, sensitive: true }
-      patient_last_name:   { type: string,  required: false, sensitive: true }
-      patient_dob:         { type: date,    required: false, sensitive: true }
-      patient_id:          { type: string,  required: false, sensitive: true }
-      patient_address:     { type: string,  required: false, sensitive: true }
-      patient_address_name:{ type: string,  required: false, sensitive: true }
-      patient_work_address:{ type: string,  required: false, sensitive: true }
-      patient_other_address:{ type: string, required: false, sensitive: true }
-      patient_city:        { type: string,  required: false, sensitive: true }
-      patient_state:       { type: string,  required: false, sensitive: true }
-      patient_zip_code:    { type: string,  required: false, sensitive: true }
-      patient_phone:       { type: string,  required: false, sensitive: true }
-      house_phone:         { type: string,  required: false, sensitive: true }
-      work_phone:          { type: string,  required: false, sensitive: true }
-      patient_email:       { type: string,  required: false, sensitive: true }
-
-      # Arrays from Patient Intake
-      medications:         { type: array,   required: false, sensitive: false, items:
-                              { type: object, fields:
-                                  { medication: { type: string, required: true, sensitive: false },
-                                    dose:       { type: string, required: true, sensitive: false },
-                                    frequency:  { type: string, required: false, sensitive: false } 
-                                  }
-                              }
-                            }
-
-      family_members:      { type: array,   required: false, sensitive: true, items:
-                              { type: object, fields:
-                                  { family_name:     { type: string, required: false, sensitive: true },
-                                    family_relation: { type: string, required: false, sensitive: false },
-                                    family_phone:    { type: string, required: false, sensitive: true },
-                                    family_dob:      { type: date,   required: false, sensitive: true } 
-                                  }
-                              }
-                            }
-
-      emergency_contacts:  { type: array,   required: false, sensitive: true, items:
-                              { type: object, fields:
-                                  { emergency_name:    { type: string, required: false, sensitive: true },
-                                    emergency_relation:{ type: string, required: false, sensitive: false },
-                                    emergency_phone:   { type: string, required: false, sensitive: true }
-                                  }
-                              }
-                            }
-
-      allergies:           { type: array,   required: false, sensitive: false, items:
-                              { type: object, fields:
-                                  { medication_allergies: { type: string, required: false, sensitive: false },
-                                    medication_reaction:  { type: string, required: false, sensitive: false }
-                                  }
-                              }
-                            }
-
-      surgeries:           { type: array,   required: false, sensitive: false, items:
-                              { type: object, fields:
-                                  { surgery_type: { type: string, required: false, sensitive: false },
-                                    surgery_date: { type: date,   required: false, sensitive: false },
-                                    surgery_notes:{ type: string, required: false, sensitive: false }
-                                  }
-                              }
-                            }
-
+      patient_name:    { type: string, required: true,  sensitive: true }
+      patient_dob:     { type: date,   required: false, sensitive: true }
+      patient_id:      { type: string, required: false, sensitive: true }
     relations:
-      encounters:          { target: Encounter, cardinality: many }
-      consents:            { target: Consent,   cardinality: many }
-      invoices:            { target: Invoice,   cardinality: many }
+      encounters:      { target: Encounter, cardinality: many }
+      consents:        { target: Consent,   cardinality: many }
 
   Encounter:
     fields:
-      admission_date:      { type: date,    required: false, sensitive: false }
-      discharge_date:      { type: date,    required: false, sensitive: false }
-      provider_name:       { type: string,  required: false, sensitive: false }
-      bed_id:              { type: string,  required: false, sensitive: false }
-
-      diagnostics:         { type: array,   required: false, sensitive: false, items:
-                              { type: object, fields:
-                                  { diagnostic_study:    { type: string, required: false, sensitive: false },
-                                    diagnostic_date:     { type: date,   required: false, sensitive: false },
-                                    diagnostic_facility: { type: string, required: false, sensitive: false }
-                                  }
-                              }
-                            }
-
-      therapies:           { type: array,   required: false, sensitive: false, items:
-                              { type: object, fields:
-                                  { physical_therapy_date:{ type: date, required: false, sensitive: false },
-                                    chiropractor_date:   { type: date, required: false, sensitive: false },
-                                    massage_date:        { type: date, required: false, sensitive: false },
-                                    acupuncture_date:    { type: date, required: false, sensitive: false },
-                                    psych_date:          { type: date, required: false, sensitive: false },
-                                    other_date:          { type: date, required: false, sensitive: false }
-                                  }
-                              }
-                            }
-
+      admission_date:  { type: date,   required: false, sensitive: false }
+      discharge_date:  { type: date,   required: false, sensitive: false }
+      provider_name:   { type: string, required: false, sensitive: false }
+      provider_address_name: { type: string, required: false, sensitive: false }
     relations:
-      patient:             { target: Patient,   cardinality: one }
-      claims:              { target: Claim,     cardinality: many }
-      consents:            { target: Consent,   cardinality: many }
+      patient:         { target: Patient, cardinality: one }
+      claims:          { target: Claim,   cardinality: many }
+      consents:        { target: Consent, cardinality: many }
 
-  Invoice:
+  Claim:
     fields:
-      invoice_number:      { type: string,  required: true,  sensitive: false }
-      invoice_date:        { type: date,    required: true,  sensitive: false }
-      due_date:            { type: date,    required: true,  sensitive: false }
-      subtotal_amount:     { type: decimal, required: true,  sensitive: false }
-      discount_amount:     { type: decimal, required: false, sensitive: false }
-      total_amount:        { type: decimal, required: true,  sensitive: false }
-      patient_id:          { type: string,  required: false, sensitive: true }
-      patient_name:        { type: string,  required: true,  sensitive: true }
-      patient_address:     { type: string,  required: false, sensitive: true }
-      patient_phone:       { type: string,  required: false, sensitive: true }
-      patient_email:       { type: string,  required: false, sensitive: true }
-      admission_date:      { type: date,    required: false, sensitive: false }
-      discharge_date:      { type: date,    required: false, sensitive: false }
-      provider_name:       { type: string,  required: false, sensitive: false }
-      bed_id:              { type: string,  required: false, sensitive: false }
-      line_items:          { type: array,   required: true, sensitive: false, items:
-                              { type: object, fields:
-                                  { description: { type: string, required: true, sensitive: false },
-                                    code:        { type: string, required: true, sensitive: false },
-                                    amount:      { type: decimal, required: true, sensitive: false } 
-                                  }
-                              }
-                            }
-
+      total_amount:    { type: decimal, required: true,  sensitive: false }
+      invoice_number:  { type: string,  required: false, sensitive: false }
+      line_items:      { type: array,   required: false, sensitive: false, items: string }
     relations:
-      encounter:           { target: Encounter, cardinality: one }
+      encounter:       { target: Encounter, cardinality: one }
 
   Consent:
     fields:
-      date:                { type: date,    required: true,  sensitive: false }
-      expiration_date:     { type: date,    required: false, sensitive: false }
-      expiration_event:    { type: string,  required: false, sensitive: false }
-      patient_signature:   { type: string,  required: true,  sensitive: true }
-      provider_signature:  { type: string,  required: false, sensitive: false }
-      translator_name:     { type: string,  required: false, sensitive: false }
-      translator_signature:{ type: string,  required: false, sensitive: false }
-      guardian_name:       { type: string,  required: false, sensitive: true }
-      guardian_signature:  { type: string,  required: false, sensitive: true }
-      guardian_relation:   { type: string,  required: false, sensitive: false }
-      family_name:         { type: string,  required: false, sensitive: true }
-      family_relation:     { type: string,  required: false, sensitive: false }
-      family_phone:        { type: string,  required: false, sensitive: true }
-      family_address_name: { type: string,  required: false, sensitive: true }
-      family_state:        { type: string,  required: false, sensitive: false }
-      family_city:         { type: string,  required: false, sensitive: false }
-      family_zip_code:     { type: string,  required: false, sensitive: false }
-
+      patient_signature: { type: string, required: false, sensitive: true }
+      guardian_signature: { type: string, required: false, sensitive: true }
+      date:              { type: date,   required: true,  sensitive: false }
+      provider_signature: { type: string, required: false, sensitive: false }
     relations:
-      patient:             { target: Patient,   cardinality: one }
-      encounter:           { target: Encounter, cardinality: one }
-
+      patient:          { target: Patient, cardinality: one }
+      encounter:        { target: Encounter, cardinality: one }

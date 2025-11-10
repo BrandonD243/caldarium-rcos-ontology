@@ -1,0 +1,20 @@
+Patient:
+  - patient_name
+  - patient_dob
+  - patient_id
+
+Encounter:
+  - admission_date
+  - discharge_date
+  - provider_name
+  - provider_address_name
+
+Claim:
+  - total_amount
+  - invoice_number
+  - line_items
+
+Consent:
+  - patient_signature
+  - guardian_signature
+  - date

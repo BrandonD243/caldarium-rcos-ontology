@@ -1,0 +1,33 @@
+{
+  "properties": {
+    "total_amount": {
+      "title": "Total Amount",
+      "type": "number"
+    },
+    "invoice_number": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Invoice Number"
+    },
+    "line_items": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Line Items",
+      "type": "array"
+    }
+  },
+  "required": [
+    "total_amount",
+    "line_items"
+  ],
+  "title": "Claim",
+  "type": "object"
+}
